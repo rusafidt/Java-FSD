@@ -1,0 +1,37 @@
+
+class Customer {
+	int customerid;
+	String customerName, emailid;
+	public int getCustomerid() {
+		return customerid;
+	}
+	public void setCustomerid(int customerid) {
+		this.customerid = customerid;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getEmailid() {
+		return emailid;
+	}
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+	
+	Customer() { 
+		this.customerid = customerid; 
+		this.customerName = customerName;
+		this.emailid = emailid;
+	}
+}
+public class Qn6 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

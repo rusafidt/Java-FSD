@@ -1,0 +1,34 @@
+<HTML>
+<HEAD> 
+	<TITLE> Conversion of Array to String </TITLE>
+
+	</HEAD>
+
+<BODY>
+
+	<h3> Conversion of Array to String </h3>
+
+	<p> Array before operations	</p>
+	<p id="demo"></p>
+	<p>Array using Pop : </p>
+	<p id="demo1"></p>
+	<p>Array using Push : </p>
+	<p id="demo3"></p>
+
+
+	<SCRIPT>
+		const fruits = ["Banana", "Orange", "Apple", "Mango"];
+		
+		document.getElementById("demo").innerHTML = fruits;
+
+		fruits.pop();
+		document.getElementById("demo1").innerHTML = fruits;
+
+        fruits.push("Jackfruit");
+        document.getElementById("demo3").innerHTML = fruits;
+
+		
+
+	</SCRIPT>
+</BODY>
+</HTML>

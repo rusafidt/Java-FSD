@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Qn3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Inmate's Name : ");
+		String inmate = sc.nextLine();
+		
+		
+		System.out.print("Inmate's Father's Name : ");
+		String inmatefather = sc.nextLine();
+		
+		System.out.print(inmate +" "+ inmatefather);
+		
+
+}
+}

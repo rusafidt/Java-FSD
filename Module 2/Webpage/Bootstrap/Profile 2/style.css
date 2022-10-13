@@ -1,0 +1,113 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    height: 100vh
+}
+
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+}
+
+.logo
+{
+    height: 48px;
+    padding: 2px 10px;
+}
+
+.icon-bar
+{
+    background: grey;
+    
+}
+
+li a
+{
+    color: #333;
+}
+
+.big-text
+{
+    font-size: 30px;
+    margin: 20px;
+    color: grey;
+}
+
+a.btn
+{
+    margin: 90px 10px;
+    width: 200px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+a.btn-first {
+    background-color: #e4ebf4;
+    color: dimgrey;
+}
+
+a.btn-first:hover{
+    background: darkgrey;
+}
+
+a.btn-second:hover {
+    background: darkgrey;
+}
+
+a .btn-second
+    {
+    background: transparent;
+    border: 10px solid grey;
+}
+
+.row {
+    background-color: #f7f7f7;
+}
+
+.img-response
+{
+    margin: 10px 100px;
+}
+
+.sec-text
+{
+    font: times new roman;
+}
+
+.heading
+{
+    margin: 0px 130px;
+}
+
+.logo1{
+    height: 4px;
+    padding: 2px 10px;
+}
+
+.rows{
+    background-color: grey;
+    height: 20px;
+}
+
+.top {
+    margin: 0px 1300px;
+}
+
+
+
+.rightNav {
+    width: 50px;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 10px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+

@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+class Ticket {
+	private int ticketid,price;
+	static int availableTickets;
+	public int getTicketid() {
+		return ticketid;
+	}
+	public void setTicketid(int ticketid) {
+		this.ticketid = ticketid;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public static int getAvailableTickets() {
+		return availableTickets;
+	}
+	public static void setAvailableTickets(int availableTickets) {
+		Ticket.availableTickets = availableTickets;
+		if (availableTickets<1) {
+			System.out.println("Not allowed");
+	}
+	}
+	
+	public int calculateTicketCost(int nooftickets) {
+		availableTickets = availableTickets- nooftickets;
+		return (nooftickets*getPrice());
+	}
+	
+	
+}
+
+public class Qn5 {
+
+	public static void main(String[] args) {
+
+		Ticket t = new Ticket();
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number of bookings : " );
+		int b = sc.nextInt();
+		
+		System.out.println("Enter the available tickets : " );
+		t.availableTickets = sc.nextInt();
+		
+		for (int i=0; i<b;i++) {
+			
+			System.out.println("Enter the ticketid : " );
+			int num = sc.nextInt();
+			t.setTicketid(num);
+			
+			System.out.println("Enter the price : " );
+			int num1 = sc.nextInt();
+			t.setPrice(num1);
+		}
+	}
+
+}

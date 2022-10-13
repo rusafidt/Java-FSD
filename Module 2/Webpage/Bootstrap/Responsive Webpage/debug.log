@@ -1,0 +1,4 @@
+[0929/095834.421:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[0929/095835.070:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[0929/095835.362:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
+[0929/154618.043:INFO:CONSOLE(22)] "Uncaught SyntaxError: missing ) after argument list", source: file:///C:/Users/ustjavafsdb113/git/Java-FSD/Webpage/Bootstrap/Responsive%20Webpage/login1.html (22)

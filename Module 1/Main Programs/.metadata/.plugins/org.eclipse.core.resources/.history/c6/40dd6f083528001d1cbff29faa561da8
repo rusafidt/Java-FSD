@@ -1,0 +1,32 @@
+package day2;
+
+import java.util.Scanner;
+
+public class pgm14 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter the number of entries : ");
+		int num = scan.nextInt();
+		int n=50;
+		int se=0,so = 0;
+		int[] a = new int [n];
+		for (int i=1; i<=num; i++) {
+			Scanner scan1 = new Scanner(System.in);
+			System.out.print("Enter the number " + i + " : ");
+			
+			a[i]= scan1.nextInt();
+		}
+		for (int i=1; i<=num;i++) {
+			if (a[i]%2==0) {
+				se = se + i;
+			}
+			else {
+				so = so + i;
+			}
+		}
+		System.out.println("The sum of even digits in array are : " + se);
+		System.out.println("The sum of odd digits in array are : " + so);
+			}
+		
+}

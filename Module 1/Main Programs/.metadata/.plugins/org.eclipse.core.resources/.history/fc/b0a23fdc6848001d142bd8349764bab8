@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Qn4 {
+
+		public static void main(String[] args) {
+		     Scanner userInput = new Scanner(System.in) ;
+
+		     while (userInput.hasNextLine()) {
+		         String state = userInput.nextLine() ;
+		         Double population = userInput.nextDouble() ;
+		         String temp = userInput.nextLine() ; // for the new line
+
+		         System.out.printf( "%s %2f" , state , population ) ;
+		     }
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+
+
+.rightNav {
+    width: 50;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 10px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}

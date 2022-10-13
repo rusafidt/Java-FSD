@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Qn3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Inmate's Name : ");
+		String inmate = sc.nextLine();
+		
+		System.out.print("Inmate's Father's Name : ");
+		String inmatefather = sc.nextLine();
+		
+		int n = inmate.length();
+		for (int i =0; i<n ; i++) {
+			
+			char st = inmate.charAt(i);
+			int num = int(st);
+		}
+	
+		System.out.print(inmate +" "+ inmatefather);
+		
+
+}
+}

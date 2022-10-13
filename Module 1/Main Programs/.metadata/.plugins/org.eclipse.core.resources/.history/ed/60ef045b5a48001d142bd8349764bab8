@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Qn2 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter the number of Pizzas bought : ");
+		int pizza = sc.nextInt();
+		
+		
+		System.out.print("Enter the number of Puffs bought : ");
+		int puff = sc.nextInt();
+		
+		System.out.print("Enter the number of Cool Drinks bought : ");
+		int cooldrink = sc.nextInt();
+		
+		System.out.println("   Bill Details  ");
+		
+		
+		
+		System.out.println("\nNumber of Pizzas : " + pizza);
+		System.out.println("Number of Puffs : " + puff);
+		System.out.println("Number of Cool Drinks : " +cooldrink);
+
+		int tot = (pizza*100) + (puff*20) + (cooldrink*10);
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Qn1 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter the number of litres to fill the tank : ");
+		int litre = sc.nextInt();
+		
+		System.out.println("Enter the distance covered : ");
+		int dist = sc.nextInt();
+		
+		double fuelconsump = (litre/dist)*100;
+		System.out.println();
+		System.out.print("Litre/100KM  -  ");
+		System.out.println(fuelconsump);
+		
+		double miles = dist*0.624;
+		double gallons = 
+		double fuelconsump1 = ()
+		System.out.println();
+		System.out.println("Miles/Gallons  -  ");
+		
+	}
+
+}

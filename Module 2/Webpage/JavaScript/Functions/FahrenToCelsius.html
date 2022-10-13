@@ -1,0 +1,25 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 id="welcome"> Fahrenheit to Celsius </h1>
+   
+        <form>
+                <input type="button" value="Click " onClick="toCelsius()" />
+            <p id="demo"> </p>
+            </form>
+
+    <script type="text/javascript">
+        
+        function toCelsius() {
+        var fahr = prompt("Enter Fahrenheit : ");
+        var x =  (5/9) * (fahr-32);
+
+        let text = "The temperature is " + x + " Celsius";
+document.write(text);        }
+
+        
+   
+    </script>
+        </body>
+</html>

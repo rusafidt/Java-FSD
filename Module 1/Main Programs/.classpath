@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Java String"/>
+	<classpathentry kind="src" path="foreach"/>
+	<classpathentry kind="src" path="Questions(Sep20)"/>
+	<classpathentry kind="src" path="Questions(Sep21)"/>
+	<classpathentry kind="src" path="Questions(Sep23)"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

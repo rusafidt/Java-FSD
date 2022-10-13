@@ -1,0 +1,26 @@
+package day2;
+
+import java.util.Scanner;
+
+public class pgm6 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter to print prime numbers : ");
+		int n = scan.nextInt();
+		int i,num=0;
+		String primeNumbers = "";
+		for (i = 1; i<=n; i++) {
+			int counter = 0;
+			for(num = i; num>=1 , num--) {
+				counter = counter + 1;
+			}
+		}
+		if (counter == 2) {
+			primeNumbers = primeNumbers + i + " ";
+		}
+	}
+	System.out.println("Prime numbers from 1 to n are : ");
+	System.out.println("primeNumbers");
+
+}

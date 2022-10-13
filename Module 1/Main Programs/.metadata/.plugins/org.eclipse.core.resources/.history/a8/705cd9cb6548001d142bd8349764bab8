@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Qn3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Inmate's Name : ");
+		String inmate = sc.nextLine();
+		
+		System.out.print("Inmate's Father's Name : ");
+		String inmatefather = sc.nextLine();
+		
+		inmate=inmate.toUpperCase();
+        inmate = inmate + " ";
+        inmatefather=inmatefather.toUpperCase();
+        String inmates=inmate.concat(inmatefather);
+        char[] cs=inmates.toCharArray();
+        for(char c:cs) {
+            if(Character.isDigit(c)||c=='!'||c=='@'||c=='#'||c=='$'||c=='%') {
+                System.out.println("invalid name");
+                System.exit(0);
+            }
+            
+
+}
+        System.out.println(inmates);
+}
