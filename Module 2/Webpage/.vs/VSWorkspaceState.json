@@ -1,8 +1,17 @@
 {
   "ExpandedNodes": [
-    "\\TypeScript\\Classes",
-    "\\Webpage",
-    "\\Webpage\\Angular"
+    "",
+    "\\Angular\\SPA\\node_modules\\bootstrap\\dist",
+    "\\Angular\\To-Do-List-111\\node_modules\\@angular",
+    "\\Angular\\To-Do-List-111\\node_modules\\@angular\\material",
+    "\\Angular\\To-Do-List-111\\node_modules\\@angular\\material\\prebuilt-themes",
+    "\\Angular\\To-Do-List-111\\src",
+    "\\Angular\\To-Do-List-111\\src\\app",
+    "\\Angular\\To-Do-List-1\\src",
+    "\\Angular\\To-Do-List-1\\src\\app",
+    "\\Angular\\To-Do-List-1\\src\\app\\components\\todos",
+    "\\Angular\\To-Do-List-1\\src\\app\\components\\todos\\todos"
   ],
+  "SelectedNode": "\\Angular",
   "PreviewInSolutionExplorer": false
 }
